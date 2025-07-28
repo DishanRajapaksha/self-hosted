@@ -3,9 +3,6 @@
 
 use_default_settings: true
 
-server:
-  public_instance: true
-
 general:
   instance_name: "Seer"
   privacypolicy_url: false
