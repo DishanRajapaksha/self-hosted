@@ -17,10 +17,6 @@ search:
   safe_search: 0
   autocomplete: "google"
 
-engines:
-  - name: google
-    engine: google
-
 ui:
   query_in_title: false
   infinite_scroll: true
@@ -32,17 +28,6 @@ ui:
   search_on_category_select: true
   hotkeys: default
   url_formatting: pretty
-
-categories_as_tabs:
-  general:
-  images:
-  videos:
-  news:
-  map:
-  music:
-  it:
-  science:
-  files:
 
 plugins:
   searx.plugins.calculator.SXNGPlugin:
